@@ -139,7 +139,7 @@ Our preliminary experimental results demonstrate the efficiency of this approach
 | Metric                     | Size 100 | Size 10,000 | Size 1,000,000 | Change Rate 1-2 | Change Rate 2-3 |
 | -------------------------- | -------- | ----------- | -------------- | --------------- | --------------- |
 | Test Data Size             | 10       | 1,000       | 100,000        | 100.0           | 100.0           |
-| Insertion Time (s)         | 0.000016 | 0.000495    | 0.059559       | 30.9375         | 119.336         |
+| Bulk Insertion Time (s)    | 0.000016 | 0.000495    | 0.059559       | 30.9375         | 119.336         |
 | Contains Time (s)          | 0.000    | 0.000       | 0.000          | NaN             | NaN             |
 | Next Time (s)              | 0.000    | 0.000       | 0.000          | NaN             | NaN             |
 | Previous Time (s)          | 0.000    | 0.000       | 0.000          | NaN             | NaN             |
