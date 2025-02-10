@@ -1,4 +1,4 @@
-# Delving into O(1) Element Operations and O(n) Sorting using Bitmap
+# Exploring O(1) Element Operations and O(n) Sorting using Bitmap
 
 Efficiently sorting and manipulating large datasets is a fundamental challenge in computer science, with traditional data structures such as arrays, linked lists, and trees offering trade-offs between speed and memory usage. This paper introduces a practical approach using **bitmap**, which achieves **O(n)** sorting and **O(1)** for all key element-wise operations, providing the smallest possible time complexity in theory.
 
