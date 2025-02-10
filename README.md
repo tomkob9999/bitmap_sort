@@ -73,7 +73,7 @@ $$
 
 This process ensures that the next set bit is found in constant time **O(1)** without needing sequential traversal, unlike traditional data structures.
 
-Some may wonder that the bitwise operation takes **O(1)** only with size of CPU register.   I am not sure how the Big O community, if there is such a thing, could care less about the size of numbers when they constantly ignore the size of strings, which are really an array of byte object, but I understand it is indeed **O(1)** with respect the size of the bitmap as it can be split into arrays of CPU register size, and each can be accessed by the offsets calculated from the given integer in **O(1)**.  I am not sure of the exact implementation of bitwise operations in Python, but the test below backs it up as it does not show the access speed does not grow with the size of integers, 
+Some may wonder if O(1) should only hold with size of CPU register. I am not sure how the Big O community, if there is such a thing, could care about the size of numbers when they almost never care about the size of strings, which are really an array of byte object, but I understand there may be challenges for some bit operations like shift or complements. I am not sure of the exact implementation of bitwise operations in Python, but the test below seems to be able to handle it in constant time.
 
 ## 4. Managing Space Efficiency: The Two-Layer Bitmap Approach
 
