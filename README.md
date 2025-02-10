@@ -164,3 +164,6 @@ This structure is well-suited for applications where fast access, insertion, and
 ## 10. Conclusion
 
 The introduced two-layer bitmap structure achieves O(1) time complexity for all key element-wise operations and O(n) for sorting, representing the smallest possible time costs in theory. By overcoming challenges related to duplicates, floating-point values, and memory usage, this approach should be most effective in scenarios involving non-duplicate integers, but it remains highly effective for handling duplicates, floating-point values, and other numeric types through efficient constant-time operations. With its simplicity and efficiency, it offers a strong alternative to traditional sorted structures like arrays and B-trees while preserving performance even in extended use cases involving diverse numeric types.
+
+bitmap_sort.py - Two-layered algorithm using Python's native bitmap (bitwise operation seems constant to the input size but uncertain of the algorithm)
+LayeredBitmap.py - Multi-layered bitmaps made of word size to enable constant time access
